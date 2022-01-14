@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Favicon and title -->
+    <link rel="icon" href="/OneID.png">
+    <title>Home - OneID</title>
+
+    <!-- Halfmoon CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/css/halfmoon-variables.min.css" rel="stylesheet" />
+
+    <!-- FontAwesome Pro CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-set-preferred-mode-onload="true">
+    <!-- Modals go here -->
+    <!-- Reference: https://www.gethalfmoon.com/docs/modal -->
+
+    <!-- Page wrapper start -->
+    <div class="page-wrapper with-navbar">
+
+        <!-- Sticky alerts (toasts), empty container -->
+        <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts -->
+        <div class="sticky-alerts"></div>
+        <!-- Navbar start -->
+        <nav class="navbar">
+            <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
+            <!-- Navbar brand -->
+            <a href="/" class="navbar-brand">
+                <img src="/OneID.png" alt="OneID Logo"> OneID
+            </a>
+            <div class="navbar-content ml-auto">
+                <button class="btn btn-action mr-5" type="button" onclick="halfmoon.toggleDarkMode()">
+                    <i class="far fa-moon" aria-hidden="true"></i>
+                    <span class="sr-only">Toggle dark mode</span>
+                </button>
+                <a href="https://GitHub.com/OneID-Auth/OneID" class="btn btn-primary" role="button"><i
+                        class="fab fa-github"></i> GitHub</a>
+            </div>
+            <!-- Navbar text -->
+            <!-- <span class="navbar-text text-monospace"></span> -->
+            <!-- text-monospace = font-family shifted to monospace -->
+            <!-- Navbar nav -->
+            <ul class="navbar-nav d-none d-md-flex">
+                <!-- d-none = display: none, d-md-flex = display: flex on medium screens and up (width > 768px) -->
+                <li class="nav-item active">
+                    <a href="/docs" class="nav-link">Docs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/services" class="nav-link">Services</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- Navbar end -->
+
+        <!-- Content wrapper start -->
+        <div class="content-wrapper text-center">
+            <!--
+        Add your page's main content here
+        Examples:
+        1. https://www.gethalfmoon.com/docs/content-and-cards/#building-a-page
+        2. https://www.gethalfmoon.com/docs/grid-system/#building-a-dashboard
+      -->
+            <div class="container">
+                <p><strong>OneID</strong> for <span class="typed-text"></span><span class="cursor">&nbsp;</span></p>
+                <br>
+                <img src="/OneID.png" alt="OneID Logo">
+            </div>
+            <div>
+                <h3 class="text-center">OneID is the Only Account you need <strong>Across</strong> Open-Source Projects!</h3>
+                <h4 class="text-center">Register Once, Login everywhere!</h4>
+            </div>
+        </div>
+        <!-- Content wrapper end -->
+
+    </div>
+    <!-- Page wrapper end -->
+
+    <!-- Halfmoon JS -->
+    <script src="https://cdn.jsdelivr.net/npm/halfmoon@1.1.1/js/halfmoon.min.js"></script>
+
+    <!-- FontAwesome Pro JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/js/all.min.js" integrity="sha512-cyAbuGborsD25bhT/uz++wPqrh5cqPh1ULJz4NSpN9ktWcA6Hnh9g+CWKeNx2R0fgQt+ybRXdabSBgYXkQTTmA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- Script -->
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
